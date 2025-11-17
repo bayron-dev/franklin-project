@@ -1,0 +1,21 @@
+# Configuration files with sensitive credentials
+config.ini
+
+# Third-party libraries (should be installed via Composer)
+stripe-php-*/
+twilio-php-master/
+
+# Error logs
+error_log
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!-- SPANISH index -->
+<html lang="en">
+<head>
+    <title>Franklin Para Comisionado</title>
+    <link href="headerIcon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- Font Awesome Icons -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    
+    <style>
+        /* Base styles */
+        body, html {
+            height: 100%;
+        }
+        
+        /* Background image container */
+        #frankklin-pic { 
+            background-size: cover;
+        }
+        
+        /* Hero section with background image */
+        .bg {
+            background-image: url("franklin_profile_centered.jpg");
+            height: 90%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        /* Mobile responsive styles */
+        @media screen and (max-width: 600px) {
+            .bg { 
+                background-image: url("franklin_profile_mobile.jpg");
+            }
+            
+            #movement {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Language selector navigation bar -->
+    <nav class="navbar navbar-expand-sm py-0 bg-primary navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">
+                    English <i class='fas fa-globe-americas' style='font-size:18px'></i>
+                </a>
+            </li>
+        </ul>
+        
+        <!-- Welcome message -->
+        <span class="navbar-text ml-auto">
+            Bienvenidos!
+        </span>
+    </nav>
+    
+    <!-- Main navigation bar -->
+    
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark font-weight-bold">
+            
+            <a class="navbar-brand" href="https://franklinforcommissioner.com">
+                <img src="frank_edit_blue_logo.png" alt="logo"></a>
+            <button class="navbar-toggler text-decoration-none" type="button" data-toggle="collapse"  data-target="#collapsibleNavbar">
+              <span class="button-label">Menu</span>               
+			   <span class="navbar-toggler-icon"></span>
+            </button>
+			
+		
+			
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <span class="ml-auto"><h5 class="text-light">¡Franklin es un candidato certificado para Comisionado del Distrito 5 del Condado de Chatham!</h5></span>
+				<ul class="navbar-nav ml-auto">
+                    <li class="nav-item acitve">
+                        <a class="nav-link text-danger" style="font-size: 20px;" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" style="font-size: 20px" href="issues.html">Temas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" style="font-size: 20px" href="about.html">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" style="font-size: 20px" href="donations.html">Donar</a>
+
+                    </li>
+                </ul>
+            </div>
+			
+        </nav>
+
+    <!-- Hero section with sign-up form -->
+    <div class="bg">
+        <br>
+        <div class="row h-100 container-fluid">
+            <!-- Sign-up form -->
+            <div id="movement" class="col-sm-4 text-center my-auto">
+                <br>
+                <h2 class="text-danger font-weight-bold">Unirse</h2>
+                <p class="text-light"><a class="text-danger" href="#info">Más información &raquo; </a></p>
+                
+                <form action="send_sms.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nombre Completo" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <select name="contact" class="custom-select sm-2">
+                                    <option selected>Elejir..</option>
+                                    <option value="Phone #"># de Teléfono</option>
+                                    <option value="email">Email</option>
+                                </select>
+                            </div>
+                            <input type="text" class="form-control" placeholder="# de Teléfono or Email" id="email" name="contactid">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                </form>
+                <br>
+                <p class="text-light">¿Preguntas Para Mí?<br> <i class='far fa-envelope' style='font-size:16px;color:white'></i> <a href="mailto:info@franklinforcommissioner.com?subject=I Have a Question&body=Hello, Franklin">info@franklinforcommissioner.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second main content section -->
+    <div class="jumbotron my-auto">
+        <div class="card-deck">
+            <div class="card bg-light shadow-lg p-3 mb-5 bg-white rounded">
+                <!-- Campaign announcement -->
+                <div class="card-body text-center align-items-center" id="info">
+                    <h2 class="text-danger">Franklin Para Comisionado</h2>
+                    <hr>
+                    <h4 class="text-dark">
+                        <p>¡Hola! Me llamo Franklin Gómez Flores</p>
+                        &emsp;Desde el comienzo del año, hasta el 3 de marzo, estuve solicitando firmas para tener la oportunidad de aparecer en la boleta electoral
+                        de noviembre como candidato para Comisionado del Condado de Chatham del Distrito 5. Debí recoger 2,148 firmas de votantes registrados en el 
+                        Condado de Chatham. ¡Gracias a mi equipo y voluntarios, pudimos obtener más de 3,500 firmas! Y ahora, estoy certificado como candidato para
+                        Comisionado del Condado de Chatham del Distrito 5.
+                    </h4>
+                    <h5><a class="nav-link" href="about.html">Más Información Sobre Mí &raquo;</a></h5>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>iv>
+
+    <!-- Third main content section (cards) -->
+    <div class="jumbotron text-center bg-white">
+        <div class="card-deck">
+            <!-- Issues card -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-dark">Temas</h3>
+                </div>
+                <div class="card-body bg-danger">
+                    <h4 class="card-text">
+                        <ul class="nav flex-column font-weight-bold text-light">
+                            <li class="nav-item">
+                                <p>Una Educación de Calidad</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Atraer más empleo</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Vivienda digna</p>
+                            </li>
+                            <li class="nav-item">
+                                <p>Crecimiento responsable</p>
+                            </li>
+                        </ul>
+                    </h4>
+                    <p class="card-text"><a class="btn btn-light btn-lg" href="issues.html">Ver Más &raquo;</a></p>
+                </div>
+            </div>
+            
+            <!-- Donations card -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-dark">Donaciones</h3>
+                </div>
+                <div class="card-body my-auto bg-white">
+                    <h4 class="text-danger">Ayúdanos Con Tus Contribuciones</h4>
+                    <br>
+                    <h4 class="card-text my-auto"><a class="btn btn-primary btn-lg" href="donations.html" role="button">Donar</a></h4>
+                    <br>
+                </div>
+                <div class="card-text bg-white">
+                    <p class="card-text">
+                        <i class='fab fa-facebook-square' style='font-size:36px'></i>
+                        <i class='fab fa-instagram' style='font-size:36px'></i>
+                        <i class='fab fa-twitter' style='font-size:36px'></i>
+                        <i class='fab fa-snapchat' style='font-size:36px'></i>
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Sign-up card -->
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-dark">Unirse</h3>
+                </div>
+                <div class="card-body bg-primary">
+                    <p class="card-text">
+                        <br>
+                        <form action="send_sms.php" method="POST">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Nombre Completo" id="name" name="name">
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <select name="contact" class="custom-select sm-2">
+                                            <option selected>Elejir..</option>
+                                            <option value="Phone #"># de Teléfono</option>
+                                            <option value="email">Email</option>
+                                        </select>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="# de Teléfono or Email" id="email" name="contactid">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-light btn-lg">Enviar</button>
+                        </form>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>    <!-- Modal popup for donation confirmation -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Gracias Por Su Apoyo</h4>
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    You will be redirected to the donations page
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    <a class="btn btn-danger" target="_blank" href="https://www.franklinforcommissioner.com">Go To Donations Page</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
