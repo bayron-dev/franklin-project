@@ -109,6 +109,9 @@ franklin-project/
 - **MaxCDN** - Bootstrap CDN
 - **Google CDN** - jQuery hosting
 
+### Adding External Services Configuration Files
+- **Twilio** - Unzip the folder name twilio-php-master.zip and delete the zip version
+- **Stripe API** - Unzip the folder name  stripe-php-7.28.1 and delete the zip version
 ## ✨ Features
 
 ### 1. Bilingual Interface
